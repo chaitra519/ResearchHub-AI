@@ -101,8 +101,6 @@ export const Home: React.FC = () => {
           variants={itemVariants} 
           className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed"
         >
-          ResearchHub AI combines local Vector Search (ChromaDB + sentence-transformers) 
-          and advanced Reasoning (Llama 3.3 via Groq) to index, search, summarize, and draft literature syntheses.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
